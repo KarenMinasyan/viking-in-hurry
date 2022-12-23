@@ -4,7 +4,7 @@ body, html {
 
 .frame {
     width: 800px;
-    height: 600px;
+    height: 560px;
     position: relative;
     background: #fcedb5;
     --animation: 1s ease infinite;
