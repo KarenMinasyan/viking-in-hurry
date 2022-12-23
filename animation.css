@@ -1,114 +1,180 @@
-/* mi kadry 4.16% tvyal depqum */
+/* մի frame 4.16%, տվյալ դեպքում */
 
 @keyframes viking {
-    0%, 100% { transform: rotate(17deg); }
-    25.00% { transform: translate(0, 51px) rotate(17deg) }
-    54.16% { transform: translate(0px, 0px) rotate(15deg); }
-    75% { transform: translate(0px, 52px) rotate(16deg); }
+    0%, 100% { transform: translate(3px, -26px) rotate(17deg); }
+    12.50% { transform: translate(3px, -6px) rotate(17deg); }
+    25.00% { transform: translate(4px, 26px) rotate(17deg); }
+    37.44% { transform: translate(2px, -9px) rotate(21deg); }
+    54.16% { transform: translate(4px, -22px) rotate(15deg); }
+    66.50% { transform: translate(3px, 4px) rotate(17deg); }
+    75.00% { transform: translate(3px, 25px) rotate(18deg); }
+    87.30% { transform: translate(2px, -1px) rotate(20deg); }
 }
 
 @keyframes vikingShoulderRight {
-    0%, 100% { transform: translate(-23px, -13px) rotate(-2deg); }
-    25.00% { transform: translate(-17px, -19px) rotate(48deg) }
-    54.16% { transform: translate(3px, -7px) rotate(2deg); }
-    75% { transform: translate(1px, 14px) rotate(-33deg); }
+    0%, 100% { transform: translate(-27px, -7px) rotate(-7deg); }
+    12.50% { transform: translate(-27px, -7px) rotate(-2deg); }
+    25.00% { transform: translate(-5px, -34px) rotate(33deg); }
+    37.44% { transform: translate(-4px, -27px) rotate(25deg); }
+    54.16% { transform: translate(1px, -6px) rotate(-2deg); }
+    66.50% { transform: translate(4px, 2px) rotate(-23deg); }
+    75.00% { transform: translate(5px, -2px) rotate(-26deg); }
+    87.30% { transform: translate(-13px, 11px) rotate(-27deg); }
 }
 
 @keyframes vikingArmRight {
-    0%, 100% { transform: rotate(-73deg); }
-    25.00% { transform: rotate(-48deg); }
-    54.16% { transform: rotate(-33deg); }
-    75% { transform: rotate(-56deg); }
+    0%, 100% { transform: rotate(-71deg); }
+    12.50% { transform: rotate(-49deg); }
+    25.00% { transform: rotate(-37deg); }
+    37.44% { transform: rotate(-22deg); }
+    54.16% { transform: rotate(-34deg); }
+    66.50% { transform: rotate(-53deg); }
+    75.00%, 87.30% { transform: rotate(-69deg); }
 }
 
 @keyframes vikingLegRight {
-    0%, 100% { transform: translate(-3px, -4px) rotate(-73deg); }
-    25.00% { transform: translate(-8px, -3px) rotate(-62deg); }
-    54.16% { transform: translate(1px, 8px) rotate(14deg); }
-    75% { transform: translate(6px, -9px) rotate(-69deg); }
+    0%, 100% { transform: translate(0px, 0px) rotate(-72deg); }
+    15.50% { transform: translate(0px, 0px) rotate(-63deg); }
+    25.00% { transform: translate(-8px, -1px) rotate(-60deg); }
+    37.44% { transform: translate(-16px, 14px) rotate(-33deg); }
+    54.16% { transform: translate(-16px, 14px) rotate(9deg); }
+    75.00% { transform: translate(4px, -4px) rotate(-73deg); }
+    87.30% { transform: translate(3px, -12px) rotate(-102deg); }
 }
 
 @keyframes vikingShinRight {
     0%, 100% {  transform: rotate(23deg); }
-    25.00% { transform: rotate(56deg); }
-    54.16% { transform: rotate(47deg); }
-    75% { transform: rotate(129deg); }
+    12.50% { transform: rotate(30deg); }
+    25.00% { transform: rotate(54deg); }
+    37.44% { transform: rotate(56deg); }
+    54.16% { transform: rotate(52deg); }
+    66.50% { transform: rotate(111deg); }
+    75.00% { transform: rotate(131deg); }
+    87.30% { transform: rotate(96deg); }
 }
 
 @keyframes vikingBootRight {
-    0%, 100% { transform: translate(-8px, -6px) rotate(-18deg); }
-    25.00% { transform: translate(-2px, 5px); rotate(-11deg); }
-    54.16%, 75% { transform: translate(9px, 11px) rotate(1deg); }
-}
-
-@keyframes vikingFootRight {
-    0%, 100% { transform: rotate(2deg); }
-    25.00% { transform: rotate(0deg); }
-    54.16% { transform: rotate(5deg); }
-    75% { transform: rotate(26deg); }
+    0%, 100% { transform: translate(-6px, 5px) rotate(-18deg); }
+    12.50% { transform: translate(-4px, 1px) rotate(-16deg); }
+    25.00% { transform: translate(-2px, 4px) rotate(-11deg); }
+    37.44% { transform: translate(3px, -1px) rotate(-4deg); }
+    54.16%, 75% { transform: translate(9px, -1px) rotate(2deg); }
+    87.30% { transform: translate(0px, 0px) rotate(-7deg); }
 }
 
 @keyframes vikingBootPartRight {
-    0%, 100% { transform: skewY(1deg); }
-    25.00%, 54.16% { transform: skewY(1deg); }
-    75% { transform: skewY(31deg); }
+    0%,
+    12.50%,
+    25.00%,
+    37.44%,
+    54.16%,
+    100% { transform: skewY(0deg); }
+    66.50%, 75.00% { transform: skewY(26deg); }
+    87.30% { transform: skewY(19deg); }
+}
+
+@keyframes vikingFootRight {
+    0%,
+    12.50%,
+    25.00%,
+    37.44%,
+    100% { transform: rotate(0deg); }
+    54.16% { transform: rotate(3deg); }
+    66.50%, 75.00% { transform: rotate(27deg); }
+    87.30% { transform: rotate(19deg); }
 }
 
 @keyframes vikingLegLeft {
-    0%, 100% { transform: translate(-22px, 10px) rotate(15deg); }
-    25.00% { transform: translate(8px, -12px) rotate(-75deg); }
-    54.16% { transform: translate(8px, -9px) rotate(-69deg); }
-    75% { transform: translate(2px, -9px) rotate(-60deg); }
+    0%, 100% { transform: translate(-17px, 10px) rotate(7deg); }
+    12.50% { transform: translate(-16px, 10px) rotate(-26deg); }
+    25.00% { transform: translate(6px, -4px) rotate(-77deg); }
+    37.44% { transform: translate(15px, -10px) rotate(-107deg); }
+    54.16% { transform: translate(15px, -1px) rotate(-64deg); }
+    66.50% { transform: translate(2px, -1px) rotate(-64deg); }
+    75.00% { transform: translate(0px, 0px) rotate(-60deg); }
+    87.30% { transform: translate(-14px, 9px) rotate(-31deg); }
 }
 
 @keyframes vikingShinLeft {
-    0%, 100% { transform: rotate(40deg); }
-    25.00% { transform: rotate(132deg); }
-    54.16% { transform: rotate(24deg); }
-    75% { transform: rotate(56deg); }
+    0%, 100% { transform: rotate(49deg); }
+    12.50% { transform: rotate(95deg); }
+    25.00% { transform: rotate(135deg); }
+    37.44% { transform: rotate(101deg); }
+    54.16% { transform: rotate(19deg); }
+    66.50% { transform: rotate(41deg); }
+    75.00%, 87.30% { transform: rotate(54deg); }
 }
 
 @keyframes vikingBootLeft {
-    0%, 100% { transform: rotate(4deg); }
-    25.00% { transform: translate(-3px, -6px) rotate(3deg); }
-    54.16% { transform: translate(-13px, 11px) rotate(-17deg); }
-    75% { transform: translate(-9px, 8px) rotate(-12deg); }
+    0%, 100% { transform: translate(8px, 6px) rotate(4deg); }
+    12.50% { transform: translate(7px, 0px) rotate(2deg); }
+    25.00% { transform: translate(7px, 3px) rotate(4deg); }
+    37.44% { transform: translate(1px, -1px) rotate(-7deg); }
+    54.16% { transform: translate(-5px, -6px) rotate(-18deg); }
+    66.50% { transform: translate(-3px, 2px) rotate(-14deg); }
+    75.00% { transform: translate(-3px, 0px) rotate(-11deg); }
+    87.30% { transform: translate(2px, 0px) rotate(-3deg); }
+}
+
+@keyframes vikingBootPartLeft {
+    0%,
+    54.16%,
+    66.50%,
+    75.00%,
+    87.30%,
+    100% { transform: skewY(0deg); }
+    12.50% { transform: skewY(18deg); }
+    25.00% { transform: skewY(33deg); }
+    37.44% { transform: skewY(18deg); }
 }
 
 @keyframes vikingFootLeft {
-    0%, 100% {  transform: rotate(0deg); }
-    25.00% { transform: rotate(36deg); }
-    54.16%, 75% { transform: rotate(0deg); }
+    0%,
+    54.16%,
+    75.00%,
+    87.30%,
+    100% {  transform: rotate(0deg); }
+    12.50%, 37.44%  { transform: rotate(17deg); }
+    25.00% { transform: rotate(34deg); }
 }
 
-/*@keyframes vikingBootPartLeft {*/
-/*    0%, 100% {  }*/
-/*}*/
-
 @keyframes vikingHead {
-    0%, 100% { transform: translate(4px, 1px) rotate(-15deg); }
-    25.00% { transform: translate(8px, 1px) rotate(-14deg) }
-    54.16% { transform: translate(8px, 4px) rotate(-15deg); }
-    75% { transform: translate(6px, -3px) rotate(-12deg); }
+    0%, 100% { transform: translate(5px, 3px) rotate(-13deg); }
+    12.50% { transform: translate(3px, 6px) rotate(-19deg); }
+    25.00% { transform: translate(6px, 0px) rotate(-11deg); }
+    37.44% { transform: translate(1px, 1px) rotate(-8deg); }
+    54.16% { transform: translate(7px, 3px) rotate(-14deg); }
+    66.50% { transform: translate(3px, 6px) rotate(-18deg); }
+    75.00% { transform: translate(1px, 2px) rotate(-14deg); }
+    87.30% { transform: translate(4px, 1px) rotate(-8deg); }
 }
 
 @keyframes vikingBeard {
-    0%, 100% { transform: translateY(-31px); }
-    25.00% { transform: translateY(-6px); }
-    54.16% { transform: translateY(-30px); }
-    75% { transform: translateY(-6px); }
+    0%, 54.16%, 100% { transform: translateY(-30px); }
+    12.50%, 37.44%, 87.30% { transform: translateY(-18px); }
+    25.00% { transform: translateY(-7px); }
+    66.50% { transform: translateY(-14px); }
+    75.00% { transform: translateY(-6px); }
 }
 
 @keyframes vikingShoulderLeft {
-    0%, 100% { transform: translate(-12px, -12px) rotate(-7deg); }
-    25.00% { transform: translate(13px, -21px) rotate(-42deg) }
-    54.16% { transform: translate(-13px, -11px) rotate(1deg); }
-    75% { transform: translate(-33px, -13px) rotate(28deg); }
+    0%, 100% { transform: translate(-1px, -13px) rotate(-6deg); }
+    12.50% { transform: translate(7px, -15px) rotate(-33deg); }
+    25.00% { transform: translate(15px, -18px) rotate(-40deg); }
+    37.44% { transform: translate(7px, -14px) rotate(-33deg); }
+    54.16% { transform: translate(-3px, -15px) rotate(3deg); }
+    66.50% { transform: translate(-14px, -9px) rotate(21deg); }
+    75.00% { transform: translate(-18px, -11px) rotate(27deg); }
+    87.30% { transform: translate(-12px, -12px) rotate(15deg); }
 }
 
 @keyframes vikingArmLeft {
-    0%, 100% {  transform: rotate(-2deg); }
-    25.00% { transform:  rotate(-22deg) }
-    54.16% { transform: rotate(-47deg); }
-    75% { transform: rotate(-24deg); }
+    0%, 100% {  transform: rotate(-4deg); }
+    12.50% { transform:  rotate(-11deg); }
+    25.00% { transform:  rotate(-27deg); }
+    37.44% { transform:  rotate(-40deg); }
+    54.16% { transform: rotate(-50deg); }
+    66.50% { transform: rotate(-37deg); }
+    75.00% { transform: rotate(-26deg); }
+    87.30% { transform: rotate(-9deg); }
 }

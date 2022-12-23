@@ -33,7 +33,7 @@ body, html {
     border-radius: 99em;
     transform: translate(2px, -1px) rotate(20deg);
     transform-origin: bottom center;
-    /*animation: viking 1s ease infinite;*/
+    animation: viking var(--animation);
 }
 
 .viking::before {
@@ -66,7 +66,7 @@ body, html {
     transform-origin: 33px 33px;
     transform: translate(-23px, -13px) rotate(-2deg);
     z-index: -1;
-    /*animation: vikingShoulderRight var(--animation);*/
+    animation: vikingShoulderRight var(--animation);
 }
 
 .viking__shoulderLeft {
@@ -78,7 +78,7 @@ body, html {
     border-radius: 60px 0 33px 33px;
     transform-origin: 35px 60px;
     transform: translate(-12px, -12px) rotate(-11deg);
-    /* animation: vikingShoulderLeft var(--animation); */
+    animation: vikingShoulderLeft var(--animation);
 }
 
 .viking__shoulderLeft::before {
@@ -103,7 +103,7 @@ body, html {
     transform-origin: 33px 33px;
     border-radius: 33px;
     transform: rotate(0deg);
-    /*animation: vikingArmLeft var(--animation);*/
+    animation: vikingArmLeft var(--animation);
 }
 
 .viking__armLeft::before {
@@ -261,7 +261,7 @@ body, html {
     border-radius: 33px;
     transform-origin: 33px 33px;
     transform: rotate(-73deg);
-    /*animation: vikingArmRight var(--animation);*/
+    animation: vikingArmRight var(--animation);
 }
 
 .viking__armRight::after {
@@ -313,7 +313,7 @@ body, html {
     transform-origin: 13px 13px;
     transform: translate(3px, -12px) rotate(-73deg);
     z-index: -1;
-    /* animation: vikingLegRight var(--animation); */
+    animation: vikingLegRight var(--animation);
 }
 
 .viking__shinRight {
@@ -325,7 +325,7 @@ body, html {
     border-radius: 99em;
     transform-origin: 13px 13px;
     transform: rotate(20deg);
-    /*animation: vikingShinRight var(--animation);*/
+    animation: vikingShinRight var(--animation);
 }
 
 .viking__legLeft {
@@ -337,7 +337,7 @@ body, html {
     border-radius: 99em;
     transform-origin: 13px 13px;
     transform: translate(-14px, 9px) rotate(17deg);
-    /*animation: vikingLegLeft var(--animation);*/
+    animation: vikingLegLeft var(--animation);
 }
 
 .viking__shinLeft {
@@ -349,7 +349,7 @@ body, html {
     border-radius: 99em;
     transform-origin: 13px 13px;
     transform: rotate(29deg);
-    /* animation: vikingShinLeft var(--animation); */
+    animation: vikingShinLeft var(--animation);
 }
 
 .viking__footLeft {
@@ -360,7 +360,7 @@ body, html {
     transform-origin: top center;
     background: #5c4520;
     transform: translate(2px, 0) rotate(8deg);
-    /* animation: vikingBootLeft var(--animation); */
+    animation: vikingBootLeft var(--animation);
 }
 
 .viking__footLeft::before {
@@ -372,9 +372,7 @@ body, html {
     transform-origin: bottom left;
     background: #5b4520;
     transform: scaleY(0);
-    /*animation: vikingFootLeft var(--animation);*/
-
-    /*animation: vikingBootPartLeft var(--animation);*/
+    animation: vikingBootPartLeft var(--animation);
 }
 
 .viking__footLeft::after {
@@ -386,7 +384,7 @@ body, html {
     border-radius: 0 5px 0;
     transform-origin: top left;
     transform: rotate(0deg);
-    /* animation: vikingFootLeft var(--animation);*/
+     animation: vikingFootLeft var(--animation);
 }
 
 .viking__footLeft > div::before {
@@ -417,7 +415,7 @@ body, html {
     background: #5c4520;
     transform-origin: top center;
     transform: translate(0, 0) rotate(-20deg);
-    /*animation: vikingBootRight var(--animation);*/
+    animation: vikingBootRight var(--animation);
 }
 
 .viking__footRight::before {
@@ -428,7 +426,7 @@ body, html {
     transform-origin: bottom left;
     background: #5b4520;
     transform: skewY(9deg);
-    /* animation: vikingBootPartRight var(--animation); */
+    animation: vikingBootPartRight var(--animation);
 }
 
 .viking__footRight::after {
@@ -440,7 +438,7 @@ body, html {
     border-radius: 0 5px 0;
     transform-origin: top left;
     transform: rotate(4deg);
-    /* animation: vikingFootRight var(--animation); */
+    animation: vikingFootRight var(--animation);
 }
 
 .viking__footRight > div::before {
@@ -472,7 +470,7 @@ body, html {
     transform-origin: bottom left;
     transform: translate(4px, 1px) rotate(-8deg);
     border-bottom-right-radius: 4px;
-    /*animation: vikingHead var(--animation);*/
+    animation: vikingHead var(--animation);
 }
 
 .viking__head::after {
@@ -552,7 +550,7 @@ body, html {
     border-radius: 99em;
     transform-origin: top center;
     transform: translateY(-18px) rotate(-8deg);
-    /* animation: vikingBeard var(--animation); */
+    animation: vikingBeard var(--animation);
 }
 
 .viking__beard > div::before {
